@@ -1,0 +1,51 @@
+IGUI_EN = {
+	IGUI_perks_DnDCatG = "_General",
+	IGUI_perks_DnDCatA = "_Attack",
+	IGUI_perks_DnDCatCharisma = "_Charisma",
+	IGUI_perks_DnDCatD = "_Defense",
+	IGUI_perks_DnDCatM = "_Misc",
+	IGUI_perks_DnDCatDex = "_Dexterity",
+	IGUI_perks_DnDCatI = "_Intelligence",
+	IGUI_perks_DnDCatClass = "_Player's Class"
+	
+	IGUI_perks_DnDInitiative = "Initiative",
+
+	IGUI_perks_DnDStrength = "Strength",
+	IGUI_perks_DnD1hMelee = "MELEE 1 Handed",
+	IGUI_perks_DnD2hMelee = "MELEE 2 Handed",
+
+	IGUI_perks_DnDDefense = "Toughness (Defense)",
+	IGUI_perks_DnDEvasion = "Evasion (Flee Combat)",
+	IGUI_perks_DnDAgility = "Agility",
+	IGUI_perks_DnDStealth = "Stealth",
+	IGUI_perks_DnDAccuracyF = "Accuracy (Firearm)",
+	IGUI_perks_DnDAccuracyA = "Accuracy (Archery)",
+	IGUI_perks_DnDAccuracyT = "Accuracy (Throwing)",
+	IGUI_perks_DnDEscapeBindings = "Escape Bindings",
+	
+	IGUI_perks_DnDDexterity = "Dexterity",
+
+	IGUI_perks_DnDLuck = "Luck",
+	IGUI_perks_DnDCharisma = "Charisma",
+	IGUI_perks_DnDIntelligence = "Intelligence",
+	IGUI_perks_DnDWisdom = "Wisdom",
+	IGUI_perks_DnDInsight = "Insight",
+	IGUI_perks_DnDFirstAid = "First Aid",
+	IGUI_perks_DnDPersuasion = "Persuasion",
+	IGUI_perks_DnDDeception = "Deception",
+	IGUI_perks_DnDPerception = "Perception",
+	IGUI_perks_DnDWillpower = "Willpower",
+	
+	
+	IGUI_perks_DnDClassPoliceOfficer = "Police Officer",
+	IGUI_perks_DnDClassSurvivalist = "Survivalist",
+
+        IGUI_MP_RequestMapData = "Getting the Necropolis map...",
+        IGUI_MP_InitMap = "Getting the Necropolis map...",
+        IGUI_MP_DownloadedMapData = "Received %1 out of %2 map chunks. If you fail to receive map data from the server, shrink your window size.",
+        IGUI_MP_LoadWorld = "Finalizing...",
+        IGUI_MP_LoadTileDef = "Loading RP...",
+        IGUI_MP_Checksum = "Checking on Magnum...",
+        IGUI_PostDeath_Quit = "Quit to Desktop",
+        IGUI_ConfirmQuitToDesktop = "Are you sure?",
+}
