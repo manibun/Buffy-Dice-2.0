@@ -1,0 +1,308 @@
+VERSION = 1,
+
+option Utilities.Version
+{
+	type = integer, min = 1, max = 99999, default = 28,
+	page = BuffysMods,
+	translation = Utilities_Version,
+}
+
+option ServerPoints.FishingReward
+{
+	type = integer,
+	min = 0,
+  max = 2147483647,
+	default = 1,
+
+	page = ServerPoints,
+	translation = ServerPoints_Fishing_Reward_Amount,
+}
+option Utilities.NewbieText
+{
+	type = string,
+	default = [Necropolis] You awaken from a terrible nightmare in one of the few safe havens that remain.,
+	page = BuffysMods,
+	translation = NewbieText,
+}
+option DnDRules.Criticals
+{
+	type = boolean, default = false,
+	page = BuffysMods, translation = CritSuccess,
+}
+option DnDRules.SkillBalance
+{
+	type = integer, min = 10, max = 30, default = 30,
+	page = BuffysMods, translation = SkillBalance,
+}
+option POIs.Disabled
+{
+	type = boolean, default = false,
+	page = BuffysMods, translation = POIdisabled,
+}
+option POIs.NecropolisEnabled
+{
+	type = boolean, default = false,
+	page = BuffysMods, translation = NecropolisTP,
+}
+option POIs.HospitalDisabled
+{
+	type = boolean, default = false,
+	page = BuffysMods, translation = POIhospitaldisabled,
+}
+option POIs.FacilityDisabled
+{
+	type = boolean, default = false,
+	page = BuffysMods, translation = POIfacilitydisabled,
+}
+option POIs.Teleporter1
+{
+	type = string,
+	default = "Teleporter 1 Name",
+	page = BuffysTeleporter,
+	translation = POITeleporter1,
+}
+option POIs.Teleporter1DestinationX
+{
+	type = integer, min = 1, max = 99999, default = 12212,
+	page = BuffysTeleporter,
+	translation = POITeleporter1DestinationX,
+}
+option POIs.Teleporter1DestinationY
+{
+	type = integer, min = 1, max = 99999, default = 5710,
+	page = BuffysTeleporter,
+	translation = POITeleporter1DestinationY,
+}
+option POIs.Teleporter1DestinationZ
+{
+	type = integer, min = 0, max = 8, default = 0,
+	page = BuffysTeleporter,
+	translation = POITeleporter1DestinationZ,
+}
+option POIs.Teleporter2
+{
+	type = string,
+	default = "Teleporter 2 Name",
+	page = BuffysTeleporter,
+	translation = POITeleporter2,
+}
+option POIs.Teleporter2DestinationX
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter2DestinationX,
+}
+option POIs.Teleporter2DestinationY
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter2DestinationY,
+}
+option POIs.Teleporter2DestinationZ
+{
+	type = integer, min = 0, max = 8, default = 0,
+	page = BuffysTeleporter,
+	translation = POITeleporter2DestinationZ,
+}
+option POIs.Teleporter3
+{
+	type = string,
+	default = "Teleporter 3 Name",
+	page = BuffysTeleporter,
+	translation = POITeleporter3,
+}
+option POIs.Teleporter3DestinationX
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter3DestinationX,
+}
+option POIs.Teleporter3DestinationY
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter3DestinationY,
+}
+option POIs.Teleporter3DestinationZ
+{
+	type = integer, min = 0, max = 8, default = 0,
+	page = BuffysTeleporter,
+	translation = POITeleporter3DestinationZ,
+}
+option POIs.Teleporter4
+{
+	type = string,
+	default = "Teleporter 4 Name",
+	page = BuffysTeleporter,
+	translation = POITeleporter4,
+}
+option POIs.Teleporter4DestinationX
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter4DestinationX,
+}
+option POIs.Teleporter4DestinationY
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter4DestinationY,
+}
+option POIs.Teleporter4DestinationZ
+{
+	type = integer, min = 0, max = 8, default = 0,
+	page = BuffysTeleporter,
+	translation = POITeleporter4DestinationZ,
+}
+option POIs.Teleporter5
+{
+	type = string,
+	default = "Teleporter 5 Name",
+	page = BuffysTeleporter,
+	translation = POITeleporter5,
+}
+option POIs.Teleporter5DestinationX
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter5DestinationX,
+}
+option POIs.Teleporter5DestinationY
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter5DestinationY,
+}
+option POIs.Teleporter5DestinationZ
+{
+	type = integer, min = 0, max = 8, default = 0,
+	page = BuffysTeleporter,
+	translation = POITeleporter5DestinationZ,
+}
+option POIs.Teleporter6
+{
+	type = string,
+	default = "Teleporter 6 Name",
+	page = BuffysTeleporter,
+	translation = POITeleporter6,
+}
+option POIs.Teleporter6DestinationX
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter6DestinationX,
+}
+option POIs.Teleporter6DestinationY
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter6DestinationY,
+}
+option POIs.Teleporter6DestinationZ
+{
+	type = integer, min = 0, max = 8, default = 0,
+	page = BuffysTeleporter,
+	translation = POITeleporter6DestinationZ,
+}
+option POIs.Teleporter7
+{
+	type = string,
+	default = "Teleporter 7 Name",
+	page = BuffysTeleporter,
+	translation = POITeleporter7,
+}
+option POIs.Teleporter7DestinationX
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter7DestinationX,
+}
+option POIs.Teleporter7DestinationY
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter7DestinationY,
+}
+option POIs.Teleporter7DestinationZ
+{
+	type = integer, min = 0, max = 8, default = 0,
+	page = BuffysTeleporter,
+	translation = POITeleporter7DestinationZ,
+}
+option POIs.Teleporter8
+{
+	type = string,
+	default = "Teleporter 8 Name",
+	page = BuffysTeleporter,
+	translation = POITeleporter8,
+}
+option POIs.Teleporter8DestinationX
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter8DestinationX,
+}
+option POIs.Teleporter8DestinationY
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter8DestinationY,
+}
+option POIs.Teleporter8DestinationZ
+{
+	type = integer, min = 0, max = 8, default = 0,
+	page = BuffysTeleporter,
+	translation = POITeleporter8DestinationZ,
+}
+option POIs.Teleporter9
+{
+	type = string,
+	default = "Teleporter 9 Name",
+	page = BuffysTeleporter,
+	translation = POITeleporter9,
+}
+option POIs.Teleporter9DestinationX
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter9DestinationX,
+}
+option POIs.Teleporter9DestinationY
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter9DestinationY,
+}
+option POIs.Teleporter9DestinationZ
+{
+	type = integer, min = 0, max = 8, default = 0,
+	page = BuffysTeleporter,
+	translation = POITeleporter9DestinationZ,
+}
+option POIs.Teleporter10
+{
+	type = string,
+	default = "Teleporter 10 Name",
+	page = BuffysTeleporter,
+	translation = POITeleporter10,
+}
+option POIs.Teleporter10DestinationX
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter10DestinationX,
+}
+option POIs.Teleporter10DestinationY
+{
+	type = integer, min = 1, max = 99999, default = 1,
+	page = BuffysTeleporter,
+	translation = POITeleporter10DestinationY,
+}
+option POIs.Teleporter10DestinationZ
+{
+	type = integer, min = 0, max = 8, default = 0,
+	page = BuffysTeleporter,
+	translation = POITeleporter10DestinationZ,
+}
+
+
