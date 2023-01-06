@@ -281,40 +281,6 @@ perk DnDDeception
 	xp9 = 9,
 	xp10 = 10,
 }
-perk DnDIntelligence
-{
-	parent = DnDCatI,
-	name = DnDIntelligence,
-	translation = DnDIntelligence,
-	passive = false,
-	xp1 = 1,
-	xp2 = 2,
-	xp3 = 3,
-	xp4 = 4,
-	xp5 = 5,
-	xp6 = 6,
-	xp7 = 7,
-	xp8 = 8,
-	xp9 = 9,
-	xp10 = 10,
-}
-perk DnDWisdom
-{
-	parent = DnDCatI,
-	name = DnDWisdom,
-	translation = DnDWisdom,
-	passive = false,
-	xp1 = 1,
-	xp2 = 2,
-	xp3 = 3,
-	xp4 = 4,
-	xp5 = 5,
-	xp6 = 6,
-	xp7 = 7,
-	xp8 = 8,
-	xp9 = 9,
-	xp10 = 10,
-}
 perk DnDInsight
 {
 	parent = DnDCatCharisma,
@@ -334,26 +300,9 @@ perk DnDInsight
 }
 perk DnDFirstAid
 {
-	parent = DnDCatI,
+	parent = DnDCatCharisma,
 	name = DnDFirstAid,
 	translation = DnDFirstAid,
-	passive = false,
-	xp1 = 1,
-	xp2 = 2,
-	xp3 = 3,
-	xp4 = 4,
-	xp5 = 5,
-	xp6 = 6,
-	xp7 = 7,
-	xp8 = 8,
-	xp9 = 9,
-	xp10 = 10,
-}
-perk DnDPerception
-{
-	parent = DnDCatG,
-	name = DnDPerception,
-	translation = DnDPerception,
 	passive = false,
 	xp1 = 1,
 	xp2 = 2,
@@ -402,7 +351,7 @@ perk DnDDex_Stealth
 }
 perk DnDLuck
 {
-	parent = DnDCatM,
+	parent = DnDCatG,
 	name = DnDLuck,
 	translation = DnDLuck,
 	passive = false,
